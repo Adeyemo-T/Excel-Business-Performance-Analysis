@@ -1,7 +1,7 @@
 # Excel-Business-Performance-Analysis
 .l# Business Performance Dashboard: Tracking Revenue and Customer Insights
 
-## 1. Project Background
+## Project Background
 
 A retail or e-commerce business requires a holistic dashboard solution to continuously monitor key operational health metrics, track YOY performance changes, and identify high-value customer segments. The goal is to provide a single source of truth for Sales, Supply Chain (Quantity), and Marketing (Customer Insight).
 
@@ -13,38 +13,34 @@ Insights and recommendations are provided on the following key areas:
 * **Supply Chain Optimization:** Evaluation of the top-selling product units (OZ, CT, CANS) to inform inventory and stocking decisions.
 * **Geographical Distribution:** Mapping of sales performance across global regions to guide marketing and logistics allocation.
 
-***
 
-### 🔗 Technical Deliverables
 
 * **Interactive Dashboard:** The full Business Performance dashboard can be accessed [here](LINK_TO_POWER_BI_DASHBOARD).
-* **Analysis Code:** The underlying Excel files and Power Query transformations can be found [here](LINK_TO_CODE_FILE).
+* **Analysis Code:** The underlying Excel files and pivot table calculations can be found [here](LINK_TO_CODE_FILE).
 
-## 2. Data Structure & Initial Checks
+## Data Structure & Initial Checks
 
-### 📊 Data Overview
+#### Data Overview
 The analysis was built on a **Star Schema** data model created in Power Pivot/Power BI, linking multiple dimensions to a central fact table. The data was sourced from **multiple separate Excel files** (including Transaction, Product, Supplier, and Customer files) to ensure a comprehensive view of the business.
 
-### 🔗 Data Model (Star Schema)
+#### 🔗 Data Model (Star Schema)
 The model consists of a central **Fact Table** (containing metrics like `Total Sales`, `Quantity`, and `Unit Price`) linked to several **Dimension Tables** (e.g., `item_dim`, `time_dim`, `customer_dim`, `store_dim`).
 
 
 *(**Action:** Insert the image of your **Power Pivot/Excel Data Model View** showing the connected tables.)*
 
-### 🧹 Data Cleaning and Preparation
+#### Data Cleaning and Preparation
 The data cleaning and preparation process was executed using a combination of **Excel functionality** and **Power Query (M Language)**, which is essential for transforming raw transactional data into a Star Schema structure.
 
 * **ETL (Extract, Transform, Load) with Power Query:** Power Query was used to merge, append, and shape the raw data files, handle data typing, and ensure unique keys were present in all dimension tables.
 * **Metric Aggregation (Excel Pivot Tables):** **Pivot Tables** were used extensively in Excel to summarize and calculate the core business metrics shown on the dashboard, such as **YOY % changes** for Revenue, Quantity, and Average Unit Price.
 * **Custom Calculations:** YOY calculations (`Revenue YOY`, `Quantity YOY`) were derived directly from the underlying data model to provide the immediate comparative insights shown on the KPIs.
 
-## 3. Executive Summary
+## Executive Summary
 
 The business shows a healthy upward trend with total **Revenue reaching $30M** and positive **Year-over-Year (YOY) growth in Revenue (2.18%)** and **Quantity (2.13%)**. However, the long-term viability is threatened by a high concentration of revenue—**90% of transactions are conducted via mobile**, and a significant portion of sales relies on just **three customers**. Strategic focus must immediately pivot to diversifying transaction types, stabilizing the monthly sales volatility, and addressing the poor performance in key supplier relationships.
 
-***
-
-### Overview of Operational Health
+#### Overview of Operational Health
 
 * **Positive YOY Growth:** The company achieved strong YOY growth in both **Revenue (2.18%)** and **Quantity Sold (2.13%)**, demonstrating successful expansion across its markets.
 * **Customer Concentration Risk:** Customer Insight analysis shows sales are heavily dependent on a few key individuals (e.g., Jyoti, Pooja), indicating a **high retention risk** if any of these top customers are lost.
@@ -53,9 +49,7 @@ The business shows a healthy upward trend with total **Revenue reaching $30M** a
 ![Overall KPIs and Customer Insight](YOUR_IMAGE_LINK_FOR_KPI_AND_CUSTOMER_INSIGHT_CHART_HERE)
 *(**Action:** Insert the image link showing the **Revenue KPI, Quantity KPI, Average Unit Price KPI, Transaction Type chart, and Customer Insight chart**.)*
 
-***
-
-### Supplier & Product Performance
+#### Supplier & Product Performance
 
 * **Top Products:** The top-selling categories are **Beverage/Energy/Protein** and **Healthy Foods**, indicating strong market demand for health and wellness products.
 * **Supplier Disparity:** The **Top 10 Suppliers** show large variance in their contribution, confirming the need to optimize procurement based on performance and reliability.
@@ -64,9 +58,7 @@ The business shows a healthy upward trend with total **Revenue reaching $30M** a
 ![Top Selling Products and Supplier Performance](YOUR_IMAGE_LINK_FOR_PRODUCTS_AND_SUPPLIERS_CHART_HERE)
 *(**Action:** Insert the image link showing the **Top Selling Products** bar chart and the **Supplier Performance** chart.)*
 
-***
-
-### Geographical & Divisional Performance
+#### Geographical & Divisional Performance
 
 * **Global Distribution:** Sales are concentrated in **Bangladesh, Germany, and India**, which should guide marketing budget allocation.
 * **Domestic Disparity:** The map and bar chart show significant sales disparity across domestic divisions (e.g., Sylhet, Rangpur, Dhaka), confirming that resource allocation should be prioritized toward the highest-performing districts.
@@ -75,7 +67,7 @@ The business shows a healthy upward trend with total **Revenue reaching $30M** a
 ![Geographical Map and Divisional Performance](YOUR_IMAGE_LINK_FOR_MAP_AND_DIVISIONS_CHART_HERE)
 *(**Action:** Insert the image link showing the **Global Map, Divisional Performance chart, and Week Trend chart**.)*
 
-## 4. Business Recommendations
+## Business Recommendations
 
 Based on the analysis of YOY metrics, customer insights, and distribution performance, the following actions are critical to diversify risk and maximize future revenue growth:
 
