@@ -1,4 +1,5 @@
 ![Image](https://github.com/user-attachments/assets/deb751ad-80d4-4455-9216-e1fd9842f3b2)
+![Image](https://github.com/user-attachments/assets/1b35a589-e28f-46a9-b3d8-f2be36ac8074)
 ## Project Background
 
 A retail or e-commerce business requires a holistic dashboard solution to continuously monitor key operational health metrics, track YOY performance changes, and identify high-value customer segments. The goal is to provide a single source of truth for Sales, Supply Chain (Quantity), and Marketing (Customer Insight).
@@ -23,9 +24,8 @@ The analysis was built on a **Star Schema** data model created in Power Pivot/Po
 
 #### 🔗 Data Model (Star Schema)
 The model consists of a central **Fact Table** (containing metrics like `Total Sales`, `Quantity`, and `Unit Price`) linked to several **Dimension Tables** (e.g., `item_dim`, `time_dim`, `customer_dim`, `store_dim`).
+![Image](https://github.com/user-attachments/assets/cad32a72-0c37-4ed8-a849-24fe94455846)
 
-
-*(**Action:** Insert the image of your **Power Pivot/Excel Data Model View** showing the connected tables.)*
 
 #### Data Cleaning and Preparation
 The data cleaning and preparation process was executed using a combination of **Excel functionality** and **Power Query (M Language)**, which is essential for transforming raw transactional data into a Star Schema structure.
@@ -33,6 +33,9 @@ The data cleaning and preparation process was executed using a combination of **
 * **ETL (Extract, Transform, Load) with Power Query:** Power Query was used to merge, append, and shape the raw data files, handle data typing, and ensure unique keys were present in all dimension tables.
 * **Metric Aggregation (Excel Pivot Tables):** **Pivot Tables** were used extensively in Excel to summarize and calculate the core business metrics shown on the dashboard, such as **YOY % changes** for Revenue, Quantity, and Average Unit Price.
 * **Custom Calculations:** YOY calculations (`Revenue YOY`, `Quantity YOY`) were derived directly from the underlying data model to provide the immediate comparative insights shown on the KPIs.
+  
+
+  ![Image](https://github.com/user-attachments/assets/af13b63a-4fad-4918-bcad-c6cb4c9acf0f)
 
 ## Executive Summary
 
