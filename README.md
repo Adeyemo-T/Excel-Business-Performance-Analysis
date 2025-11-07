@@ -52,17 +52,14 @@ The business shows a healthy upward trend with total **Revenue reaching $30M** a
 * **Supplier Disparity:** The **Top 10 Suppliers** show large variance in their contribution, confirming the need to optimize procurement based on performance and reliability.
 * **Logistics Focus:** The primary unit of sale is **'oz' (128K units)**, followed by **'ct' (659K units)**, which is critical information for warehouse stocking and logistics teams.
 
-![Top Selling Products and Supplier Performance](YOUR_IMAGE_LINK_FOR_PRODUCTS_AND_SUPPLIERS_CHART_HERE)
-*(**Action:** Insert the image link showing the **Top Selling Products** bar chart and the **Supplier Performance** chart.)*
-
+![Image](https://github.com/user-attachments/assets/e6cc151e-7ed7-47c0-964b-24b24b9c8b3b)
 #### Geographical & Divisional Performance
 
 * **Global Distribution:** Sales are concentrated in **Bangladesh, Germany, and India**, which should guide marketing budget allocation.
 * **Domestic Disparity:** The map and bar chart show significant sales disparity across domestic divisions (e.g., Sylhet, Rangpur, Dhaka), confirming that resource allocation should be prioritized toward the highest-performing districts.
 * **Week-Over-Week Trend:** The weekly trend shows a strong surge in sales during the **4th week**, suggesting targeted promotional activities may be most effective near the end of the month.
 
-![Geographical Map and Divisional Performance](YOUR_IMAGE_LINK_FOR_MAP_AND_DIVISIONS_CHART_HERE)
-*(**Action:** Insert the image link showing the **Global Map, Divisional Performance chart, and Week Trend chart**.)*
+![Image](https://github.com/user-attachments/assets/50d743e6-e06d-4ab7-9c4e-c71266ee57f6)
 
 ## Business Recommendations
 
