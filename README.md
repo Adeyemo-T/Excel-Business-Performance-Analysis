@@ -1,6 +1,4 @@
-# Excel-Business-Performance-Analysis
-.l# Business Performance Dashboard: Tracking Revenue and Customer Insights
-
+![Image](https://github.com/user-attachments/assets/deb751ad-80d4-4455-9216-e1fd9842f3b2)
 ## Project Background
 
 A retail or e-commerce business requires a holistic dashboard solution to continuously monitor key operational health metrics, track YOY performance changes, and identify high-value customer segments. The goal is to provide a single source of truth for Sales, Supply Chain (Quantity), and Marketing (Customer Insight).
@@ -46,8 +44,7 @@ The business shows a healthy upward trend with total **Revenue reaching $30M** a
 * **Customer Concentration Risk:** Customer Insight analysis shows sales are heavily dependent on a few key individuals (e.g., Jyoti, Pooja), indicating a **high retention risk** if any of these top customers are lost.
 * **Transaction Bottleneck:** A staggering **90% of transactions occur via mobile**, creating a single point of failure and potential bottleneck in the payment infrastructure.
 
-![Overall KPIs and Customer Insight](YOUR_IMAGE_LINK_FOR_KPI_AND_CUSTOMER_INSIGHT_CHART_HERE)
-*(**Action:** Insert the image link showing the **Revenue KPI, Quantity KPI, Average Unit Price KPI, Transaction Type chart, and Customer Insight chart**.)*
+![Image](https://github.com/user-attachments/assets/d93d4b44-be85-49a4-92d3-0c91d5f9dc3e)
 
 #### Supplier & Product Performance
 
